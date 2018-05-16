@@ -43,4 +43,13 @@ and (-webkit-device-pixel-ratio : 3) {
     h1{
         font-size: 1em;
     }
+    input[type="submit"]{
+    margin-top:25px;
+    border: none;
+    background-color: blueviolet;
+    color:#fff;
+    padding:55px;
+    border-radius: 15px;
+    
+}
 }
