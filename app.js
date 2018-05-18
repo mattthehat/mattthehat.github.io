@@ -7,7 +7,7 @@ convertMeasurement = function(){
     if(isNaN(value)){
         resultDiv.innerHTML = 'Please Enter a number!';
     }else{
-    resultDiv.innerHTML = value.toFixed(2) + ' cm = <b>' + (value * 0.39.37).toFixed(2) + '</b> Inches';
+    resultDiv.innerHTML = value.toFixed(2) + ' cm = <b>' + (value * 0.39).toFixed(2) + '</b> Inches';
     input.value = '';
     }
 }
